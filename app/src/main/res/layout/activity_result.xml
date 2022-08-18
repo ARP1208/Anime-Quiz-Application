@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_bg"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="20dp"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/aclonica"
+        android:text="RESULT"
+        android:textColor="@color/tvResultText"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/iv_smile_end"
+        android:layout_width="295dp"
+        android:layout_height="264dp"
+        android:contentDescription="Result Image"
+        android:src="@drawable/ic_resultpage" />
+
+    <TextView
+        android:id="@+id/tvCongratulations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/aladin"
+        android:text="Congratulations!"
+        android:textColor="@color/tvCongrats"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/aldrich"
+        android:textColor="@color/tvResultUsername"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        tools:text="Username" />
+
+    <TextView
+        android:id="@+id/tvScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:fontFamily="@font/acme"
+        android:textColor="@color/tvScoreText"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:text="Your Score is null out of 10" />
+
+    <Button
+        android:id="@+id/buttonFinish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/buttonBgTint"
+        android:text="FINISH AND GO BACK TO MAIN PAGE"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvThankYouText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/carter_one"
+        android:text="Thank you for taking the Quiz ~ Abhinav Raj Prince"
+        android:textColor="#000000"/>
+
+</LinearLayout>
